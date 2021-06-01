@@ -971,9 +971,9 @@ a:hover {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
-.portfolio-details {
+/* .portfolio-details {
   padding-top: 40px;
-}
+} */
 
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
@@ -1444,3 +1444,28 @@ footer .credits {
 footer .credits a {
   color: #fff;
 }
+
+.intro-content.display-table {
+  padding-top: 10px;
+}
+
+.skills-column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.skills-column:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* #skills-column-2 {
+  width: 33%;
+  text-align: center;
+}
+#skills-column-3 {
+  width: 32%;
+  text-align: right;
+  float: right;
+} */
