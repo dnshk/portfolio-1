@@ -1451,7 +1451,12 @@ footer .credits a {
 
 .skills-column {
   float: left;
-  width: 25%;
+  width: 33%;
+}
+
+.column-skills{
+  float: left;
+  width: 50%;
 }
 
 /* Clear floats after the columns */
@@ -1460,12 +1465,8 @@ footer .credits a {
   display: table;
   clear: both;
 }
-/* #skills-column-2 {
-  width: 33%;
-  text-align: center;
+@media screen and (max-width: 600px) {
+  .skills-column {
+    width: 100%;
+  }
 }
-#skills-column-3 {
-  width: 32%;
-  text-align: right;
-  float: right;
-} */
