@@ -1465,8 +1465,18 @@ footer .credits a {
   display: table;
   clear: both;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 450px) {
   .skills-column {
     width: 100%;
   }
+  .about-me{
+    margin-top: -47%;
+  }
+  .about-info{
+    margin-bottom: 10%;
+  }
+}
+
+@media (min-width: 576px) {
+  
 }
