@@ -1467,3 +1467,56 @@ footer .credits a {
     margin-bottom: 10%;
   }
 }
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .about-me{
+      margin-top: -15%;
+    }
+
+}
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) {
+
+    .about-me{
+      margin-top: -50%;
+    }
+
+}
+
+@media screen 
+  and (device-width: 411px) 
+ {
+
+    .about-me{
+      margin-top: -16%;
+    }
+
+}
+@media screen 
+  and (device-width: 280px) 
+ {
+
+    .title-left{
+      font-size: 25px;
+    }
+    .title-box-2{
+      margin-top: 50%;
+    }
+    .about-me{
+      margin-top: -65%;
+    }
+
+}
+
+@media only screen 
+  and (min-device-width: 540px) 
+  and (max-device-width: 720px) 
+   { 
+    .about-me{
+      margin-top: -11%;
+    }
+  }
